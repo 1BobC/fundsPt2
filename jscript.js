@@ -54,5 +54,6 @@ function myFunction() {
       default:
       text = "I have never heard of that fruit...";
     }
+    console.log(text);
     document.getElementById("bob5").innerHTML = text;
   }
